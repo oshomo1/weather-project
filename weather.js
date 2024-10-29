@@ -36,11 +36,11 @@ async function checkWeather(city) {
 
     // Update weather accoding to condition using conditional statement
     if (weather[0].main == "Clouds") {
-      weatherIcon.src = "images/clouds.png";
+      weatherIcon.src = "images/cold.png";
     } else if (weather[0].main == "Clear") {
       weatherIcon.src = "images/clear.png";
     } else if (weather[0].main == "Rain") {
-      weatherIcon.src = "images/clear.png";
+      weatherIcon.src = "images/cold.png";
     } else if (weather[0].main == "Drizzle") {
       weatherIcon.src = "images/clear.png";
     } else if (weather[0].main == "Mist") {
