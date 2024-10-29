@@ -12,7 +12,7 @@ body {
 .card {
     width: 90%;
     max-width: 470px;
-    background: conic-gradient(red, blue, red);;
+    background: conic-gradient(yellow, pink, #3cff00);;
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
